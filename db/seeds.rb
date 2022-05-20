@@ -1,4 +1,4 @@
-# require 'open-uri'
+require 'open-uri'
 
 url = "https://tmdb.lewagon.com/movie/top_rated"
 films_db = URI.open(url).read
